@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TripStar Agency</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Start of header -->
+    <header class="position-sticky top-0">
+      <!-- Navigation bar -->
+      <nav class="navbar navbar-expand-lg bg-white shadow">
+        <div class="container-fluid" id="navbar--container">
+          <a
+            class="navbar-brand fs-2 text-black fw-bolder"
+            id="brand--logo"
+            href="#"
+            >TripStar</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <!-- Navigation links -->
+            <ul class="navbar-nav ms-auto d-flex column-gap-4">
+              <li class="nav-item">
+                <a
+                  class="nav-link fs-6 navigation--link text-black"
+                  href="#hero--section"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-primary fs-6 navigation--link text-black"
+                  href="#destinations"
+                  >Destinations</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-primary fs-6 navigation--link text-black"
+                  href="#tours"
+                  >Tours</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-primary fs-6 navigation--link text-black"
+                  href="#contact"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navigation bar ends here -->
+    </header>
+    <!-- End of header -->
+
+    <!-- Start of Hero Section -->
+    <main
+      id="hero--section"
+      class="mx-auto mt-3 d-flex align-items-center justify-content-center"
+    >
+      <!-- Hero text and button container -->
+      <section class="d-flex flex-column">
+        <h1 class="text-center bolder text-white">
+          Discvover Your Next Dream Destination
+        </h1>
+        <h2 class="fs-4 text-center p-2 text-white">
+          Experience the wonders of the natural world
+        </h2>
+        <button class="btn btn-lg btn-dark mt-5 align-self-center">
+          Get in touch
+        </button>
+      </section>
+    </main>
+
+    <!-- End of hero section -->
+
+    <!-- Destinations section starts here -->
+
+    <section id="destinations">
+      <h2 class="text-center mt-4">Travel Destinations</h2>
+      <h3 class="text-center mb-4 mt-2 fs-5">Explore. Experience. Enjoy.</h3>
+      <div
+        class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-gap-4 p-4"
+        id="destinations--section"
+      >
+        <article class="col">
+          <div
+            class="p-4 border border-light p-2 shadow bg-body-white rounded destination--cards"
+          >
+            <img src="/images/New York.jpg" alt="New York" />
+            <h3 class="fs-5 py-2">New York, USA</h3>
+            <p class="py-2 fs-6">
+              New York City: A bustling metropolis of towering skyscrapers,
+              diverse cultures, and iconic landmarks like Times Square and the
+              Statue of Liberty...
+            </p>
+            <button class="btn btn-dark mt-2">Learn more</button>
+          </div>
+        </article>
+        <article class="col">
+          <div
+            class="p-4 border border-light p-2 shadow bg-body-white rounded destination--cards"
+          >
+            <img src="/images/Turkey.jpg" alt="Turkey" />
+            <h3 class="fs-5 py-2">Turkey</h3>
+            <p class="py-2 fs-6">
+              Turkey: A vibrant blend of ancient history, stunning landscapes,
+              and warm hospitality, offering a unique cultural experience...
+            </p>
+            <button class="btn btn-dark mt-2">Learn more</button>
+          </div>
+        </article>
+        <article class="col">
+          <div
+            class="p-4 border border-light p-2 shadow bg-body-white rounded destination--cards"
+          >
+            <img src="/images/Thailand.jpg" alt="Thailand" />
+            <h3 class="fs-5 py-2">Thailand</h3>
+            <p class="py-2 fs-6">
+              Thailand: A land of vibrant culture, stunning beaches, delicious
+              food, and friendly people, offering unique traditions and modern
+              amenities...
+            </p>
+            <button class="btn btn-dark mt-2">Learn more</button>
+          </div>
+        </article>
+        <article class="col">
+          <div
+            class="p-4 border border-light p-2 shadow bg-body-white rounded destination--cards"
+          >
+            <img src="/images/Maldives.jpg" alt="Maldives" />
+            <h3 class="fs-5 py-2">Maldives</h3>
+            <p class="py-2 fs-6">
+              The Maldives, a tropical paradise, offers pristine beaches,
+              crystal-clear waters, and vibrant coral reefs, perfect for
+              relaxation and adventure...
+            </p>
+            <button class="btn btn-dark mt-2">Learn more</button>
+          </div>
+        </article>
+        <article class="col">
+          <div
+            class="p-4 border border-light p-2 shadow bg-body-white rounded destination--cards"
+          >
+            <img src="/images/Italy.jpg" alt="Italy" />
+            <h3 class="fs-5 py-2">Italy</h3>
+            <p class="py-2 fs-6">
+              Italy: A land of ancient history, stunning landscapes, and
+              world-class art. Explore the romantic canals of Venice and the
+              bustling streets of Rome...
+            </p>
+            <button class="btn btn-dark mt-2">Learn more</button>
+          </div>
+        </article>
+        <article class="col">
+          <div
+            class="p-4 border border-light p-2 shadow bg-body-white rounded destination--cards"
+          >
+            <img src="/images/Dubai.jpg" alt="Dubai" class="rounded-[20rem]" />
+            <h3 class="fs-5 py-2">Dubai</h3>
+            <p class="py-2 fs-6">
+              Dubai: A glitzy metropolis boasting towering skyscrapers,
+              luxurious hotels, and vibrant shopping malls, offering a modern
+              luxury...
+            </p>
+            <button class="btn btn-dark mt-2">Learn more</button>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- End of Destinations section -->
+
+    <!-- Start of Tour packages section -->
+    <section class="mb-4 mt-5" id="tours">
+      <div
+        class="d-flex flex-column-reverse flex-lg-row gap-6 justify-content-around align-items-center bg-dark mt-3 p-5"
+        id="packages--list--item--container"
+      >
+        <ul class="text-white fs-5">
+          <h2 class="py-3 px-4 fs-2 fw-bolder">Our Tour Packages</h2>
+          <li><i class="far fa-check-circle text-white px-4"></i>Honeymoon</li>
+          <li><i class="far fa-check-circle text-white px-4"></i>Vacations</li>
+          <li><i class="far fa-check-circle text-white px-4"></i>Tourism</li>
+          <li>
+            <i class="far fa-check-circle text-white px-4"></i>Business Trips
+          </li>
+        </ul>
+        <div class="px-5 rounded">
+          <img
+            src="/images/Tour Packages.jpg"
+            alt="Tour Packages"
+            id="tour--packages--main--image"
+          />
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 row-gap-2 p-4">
+        <article class="col">
+          <div class="p-2 border border-light p-2 shadow bg-body-white rounded">
+            <img src="/images/Honeymoon.jpg" alt="Honeymoon" />
+            <h3 class="fs-5 py-2">Honeymoon</h3>
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    View Details
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Our honeymoon package features a luxurious villa, private
+                      beach, gourmet dining, and spa treatments. Experience the
+                      ultimate romance in a tropical haven. Book now and enjoy
+                      exclusive honeymoon benefits.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="col">
+          <div class="p-2 border border-light p-2 shadow bg-body-white rounded">
+            <img src="/images/Vacation.jpg" alt="Vacations" />
+            <h3 class="fs-5 py-2">Vacations</h3>
+            <div class="accordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    View Details
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Our all-inclusive packages offer luxurious accommodations,
+                      gourmet dining, and thrilling adventures. Explore stunning
+                      beaches, vibrant cities, and ancient ruins. Book now and
+                      create unforgettable memories.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="col">
+          <div class="p-2 border border-light p-2 shadow bg-body-white rounded">
+            <img src="/images/Tourism.jpg" alt="Tourism" />
+            <h3 class="fs-5 py-3">Tourism</h3>
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    View Details
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      We offer luxury accommodations, thrilling desert safaris,
+                      and iconic landmarks. Indulge in world-class shopping, and
+                      create unforgettable memories. Book now and experience the
+                      best!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="col">
+          <div class="p-2 border border-light p-2 shadow bg-body-white rounded">
+            <img src="/images/Business.jpg" alt="Business Trips" />
+            <h3 class="fs-5 py-2">Business Trips</h3>
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    View Details
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    <p>
+                      Enjoy seamless travel arrangements, comfortable
+                      accommodations, and efficient transportation. Maximize
+                      productivity while experiencing the best of your
+                      destination. Contact us today!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- End of tour packages section -->
+
+    <!-- Start of Contact form -->
+    <section id="contact">
+      <div
+        class="contact--form--container containter mx-auto border border-light p-2 shadow bg-body-white rounded d-flex align-items-center flex-column"
+      >
+        <h2 class="text-center py-4 fs-1 bolder">Get in touch</h2>
+        <form
+          action="
+      "
+          class="px-5"
+        >
+          <div class="mb-3">
+            <label for="name" class="form-label1 py-2">Name</label>
+            <input
+              type="text"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="John Doe"
+            />
+            <label for="exampleFormControlInput1" class="form-label py-2"
+              >Email address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="name@example.com"
+            />
+            <label for="name" class="form-label1 py-2">Phone No</label>
+            <input
+              type="number"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="080xxxxxxxx"
+            />
+            <label for="destination" class="form-label py-2"
+              >Destination of interest</label
+            >
+            <select name="" id="exampleFormControlInput1" class="form-select">
+              <option
+                value=""
+                class="form-control"
+                id="exampleFormControlInput1"
+              >
+                Select
+              </option>
+              <option
+                value=""
+                class="form-control"
+                id="exampleFormControlInput1"
+              >
+                New York
+              </option>
+              <option
+                value=""
+                class="form-control"
+                id="exampleFormControlInput1"
+              >
+                Turkey
+              </option>
+              <option
+                value=""
+                class="form-control"
+                id="exampleFormControlInput1"
+              >
+                Dubai
+              </option>
+              <option
+                value=""
+                class="form-control"
+                id="exampleFormControlInput1"
+              >
+                Maldives
+              </option>
+              <option
+                value=""
+                class="form-control"
+                id="exampleFormControlInput1"
+              >
+                Thailand
+              </option>
+              <option
+                value=""
+                class="form-control"
+                id="exampleFormControlInput1"
+              >
+                Italy
+              </option>
+            </select>
+
+            <label for="destination" class="form-label py-2"
+              >Desired tour package</label
+            >
+            <select name="" id="exampleFormControlInput1" class="form-select">
+              <option
+                value=""
+                class="form-control"
+                id="exampleFormControlInput1"
+              >
+                Select
+              </option>
+              <option
+                value=""
+                class="form-control"
+                id="exampleFormControlInput1"
+              >
+                Honeymoon
+              </option>
+              <option
+                value=""
+                class="form-control"
+                id="exampleFormControlInput1"
+              >
+                Vacation
+              </option>
+              <option
+                value=""
+                class="form-control"
+                id="exampleFormControlInput1"
+              >
+                Tourism
+              </option>
+              <option
+                value=""
+                class="form-control"
+                id="exampleFormControlInput1"
+              >
+                Business Tour
+              </option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label py-2"
+              >Message</label
+            >
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+              placeholder="Type your message"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-dark">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- End of contact form -->
+
+    <!-- Footer section starts here -->
+
+    <footer class="bg-dark text-white mt-4">
+      <div
+        class="d-flex flex-column-reverse flex-lg-row justify-content-center align-items-center justify-content-lg-between"
+      >
+        <!-- footer navigation links -->
+        <nav>
+          <ul class="mb-5 mt-2">
+            <li class="py-1"><a href="#" class="text-white">About Us</a></li>
+            <li class="py-1">
+              <a href="#" class="text-white">Privacy Policy</a>
+            </li>
+            <li class="py-1">
+              <a href="#" class="text-white">Refund Policy</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- Social media links -->
+        <span class="m-5 fs-3 social--media--icons">
+          <h4 class="text-white fs-5 p-2">Connect with us</h4>
+          <i class="fa-brands fa-x-twitter px-2"></i>
+          <i class="fa-brands fa-square-instagram px-2"></i>
+          <i class="fa-brands fa-linkedin px-2"></i>
+          <i class="fa-brands fa-square-facebook px-2"></i>
+          <i class="fa-brands fa-youtube px-3"></i>
+        </span>
+      </div>
+      <p class="text-center pb-5">
+        &copy;2024 TripStar Travel Agency. All rights reserved.
+      </p>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/67a5038876.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

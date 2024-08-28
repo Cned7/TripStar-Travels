@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+* {
+  margin: 0 !important;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "oswald";
+  max-width: 100%;
+}
+img {
+  max-width: 100%;
+}
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+/* Navigation bar styles */
+
+.navigation--link:hover {
+  background-color: rgb(66, 63, 63);
+  color: white !important;
+  border-radius: 0.5rem;
+}
+
+@media screen and (min-width: 992px) {
+  #navbar--container {
+    margin-inline: 3rem !important;
+  }
+}
+
+/* Hero section styles starts here */
+
+#hero--section {
+  height: 50vh;
+  margin-inline: 1rem !important;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/images/Hero-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#hero--section button {
+  width: 10rem;
+}
+
+@media screen and (min-width: 992px) {
+  #hero--section {
+    height: 90vh;
+    margin-inline: 3rem !important;
+  }
+}
+
+/* Tour packages styling */
+
+#tour--packages--main--image {
+  height: 12rem;
+  border-radius: 1rem;
+}
+
+/* Contact form styling */
+
+.contact--form--container {
+  width: 45rem;
+}
+
+form {
+  width: 100%;
+}
+
+textarea {
+  resize: none;
+}
+
+/* Footer styling */
+
+.social--media--icons {
+  cursor: pointer;
+}
