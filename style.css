@@ -21,6 +21,10 @@ body {
   background-color: #ffffff;
 }
 
+header {
+  z-index: 20;
+}
+
 /* Navigation bar styles */
 
 .navigation--link:hover {
